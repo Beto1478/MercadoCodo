@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: green;
+}
+
+.container input
+{
+    width: 500px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.izquierda
+{
+    display: flex;
+}
+
+.Derecha
+{
+    display: flex;
+}
+
+nav a
+{
+    color: white;
+    text-decoration: none;
+}
