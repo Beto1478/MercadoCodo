@@ -11,24 +11,26 @@ body nav
     align-items: center;
     justify-content: space-between;
     padding: 15px;
-    background-color: green;
+    background-color: rgb(6, 163, 6);
+}
+
+nav .Logo
+{
+    font-size: 2rem;
+    font-family: 'Francois One', sans-serif;;
+    padding-left: 25px;
+}
+
+nav .Derecha a
+{
+    padding-right: 25px;
 }
 
 .container input
 {
     width: 500px;
-    padding: 7px;
-    border-radius: 5px;
-}
-
-.izquierda
-{
-    display: flex;
-}
-
-.Derecha
-{
-    display: flex;
+    padding: 10px;
+    border-radius: 7px;
 }
 
 nav a
