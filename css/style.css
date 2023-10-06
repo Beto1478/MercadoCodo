@@ -3,14 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    text-decoration: none;
+
 }
 
 body nav
 {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 15px;
+    padding: 18px 15px;
     background-color: rgb(6, 163, 6);
 }
 
@@ -18,23 +21,41 @@ nav .Logo
 {
     font-size: 2rem;
     font-family: 'Francois One', sans-serif;;
-    padding-left: 25px;
+    padding-left: 18px;
+    color: white;
 }
 
 nav .Derecha a
 {
-    padding-right: 25px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin: 0 5px;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.Derecha a:hover
+{
+    background-color: black;
+    transition: .5s;
 }
 
 .container input
 {
     width: 500px;
     padding: 10px;
-    border-radius: 7px;
+    border-radius: 7px 0 0 7px;
+    border: 0;
 }
 
-nav a
+.container button
 {
     color: white;
-    text-decoration: none;
+    background-color: black;
+    position: absolute;
+    border: 0;
+    border-radius: 0 7px 7px 0;
+    padding: 10px;
 }
+
