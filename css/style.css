@@ -7,6 +7,18 @@
 
 }
 
+main{
+    min-height: 85vh;
+    
+}
+
+footer{
+    border-top: 2px solid black;
+}
+
+li {
+    list-style: none; }
+
 body nav
 {
     display: flex;
@@ -14,7 +26,7 @@ body nav
     align-items: center;
     justify-content: space-between;
     padding: 18px 15px;
-    background-color: rgb(6, 163, 6);
+    background-color: #077d30;
 }
 
 nav .Logo
@@ -59,3 +71,88 @@ nav .Derecha a
     padding: 10px;
 }
 
+
+    .redes ul {
+    display: flex;
+    justify-content: center;
+     }
+        .redes ul li {
+        padding: 20px;}
+            .redes ul li a {
+            font-size: 27px;
+            padding: 5px;
+            color: white;
+            background-color:  #077d30;
+            border-radius: 50%;}
+                .redes ul li a:hover {
+                background-color: black;
+                transition: .5s;
+        }
+                    .redes ul li a i {
+                    width: 35px;
+                    height: 30px;
+                    justify-content: center;
+                    text-align: center; }
+  
+.copyright {
+    display: flex;
+    justify-content: center;
+    background-color:  #077d30; }
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tituloProductos{
+    color: #077d30;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    margin: 20px;
+}
+    
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    height: 330px;
+    width: 200px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    width: 100%; 
+   
+}
+
+.imagen-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente la imagen */
+    align-items: center; /* Centra verticalmente la imagen */
+    height: 200px; /* Establece la altura fija deseada para todas las imágenes */
+}
+
+
+.card p {
+    font-size: 14px;
+    color: #555;
+    margin-top: auto; 
+    text-align: center; 
+}
