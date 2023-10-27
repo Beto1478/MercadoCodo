@@ -13,7 +13,7 @@ main{
 }
 
 footer{
-    border-top: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(14, 13, 13);
 }
 
 li {
@@ -139,6 +139,8 @@ nav a{
   
 .copyright {
     display: flex;
+    color: white;
+    padding: 10px 0 10px 0;
     justify-content: center;
     background-color:  #077d30; 
 }
@@ -240,18 +242,6 @@ body {
     border-radius: 0 0 20px 20px;
 }
 
-.seccion-perfil-usuario .perfil-usuario-portada .boton-portada {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    border: 0;
-    border-radius: 8px;
-    padding: 12px 25px;
-    background-color: rgba(0, 0, 0, .5);
-    color: #fff;
-    cursor: pointer;
-}
-
 .seccion-perfil-usuario .perfil-usuario-portada .boton-portada i {
     margin-right: 1rem;
 }
@@ -349,25 +339,11 @@ body {
         width: 100%;
     }
 
-    .seccion-perfil-usuario .perfil-usuario-portada,
+    .seccion-perfil-usuario .perfil-usuario-portada {
+        width: 100%;
+    }
     .seccion-perfil-usuario .perfil-usuario-body {
         width: 95%;
     }
 
-    .seccion-perfil-usuario .redes-sociales {
-        position: relative;
-        flex-direction: row;
-        width: 100%;
-        left: 0;
-        text-align: center;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        align-items: center;
-        justify-content: center
-    }
-
-    .seccion-perfil-usuario .redes-sociales .boton-redes+.boton-redes {
-        margin-left: 1rem;
-        margin-top: 0;
-    }
 }
