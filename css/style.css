@@ -7,55 +7,94 @@
 
 }
 
-body nav
-{
+body header{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 18px 15px;
-    background-color: rgb(6, 163, 6);
+    padding: 10px 15px;
+    background-color: #077d30;
 }
 
-nav .Logo
-{
+header .Logo{
     font-size: 2rem;
     font-family: 'Francois One', sans-serif;;
     padding-left: 18px;
     color: white;
 }
 
-nav .Derecha a
-{
+.buttons a{
     padding: 4px 10px;
-    border-radius: 6px;
-    margin: 0 5px;
-    text-transform: uppercase;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
     color: white;
-
+    background: none;
+    border: none;
+    
 }
 
-.Derecha a:hover
-{
-    background-color: black;
+.container{
+    padding-right: 25px;
+}
+
+.buttons a:hover{
     transition: .5s;
+    color: black;
 }
 
-.container input
-{
+.container input{
     width: 500px;
     padding: 10px;
     border-radius: 7px 0 0 7px;
     border: 0;
 }
 
-.container button
-{
+.container button{
     color: white;
     background-color: black;
     position: absolute;
     border: 0;
     border-radius: 0 7px 7px 0;
     padding: 10px;
+}
+
+header .toggle{
+    background: none;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0 20px;
+
+    display: none;
+}
+
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    background-color: #077d30;
+}
+
+nav ul li{
+    display: inline-flex;
+    list-style: none;
+    padding: 4px 0;
+    margin: 0 5px 10px 5px;
+}
+
+nav a:hover{
+    background-color: black;
+    transition: .5s;
+}
+
+nav a{
+    color: white;
+    font-size: 0.8rem;
+    padding: 4px 10px;
+    border-radius: 6px;
+    text-transform: uppercase;
+
 }
 
