@@ -7,6 +7,18 @@
 
 }
 
+main{
+    min-height: 85vh;
+    
+}
+
+footer{
+    border-top: 2px solid black;
+}
+
+li {
+    list-style: none; }
+
 body header{
     display: flex;
     flex-wrap: wrap;
@@ -15,14 +27,14 @@ body header{
     padding: 10px 15px;
     background-color: #077d30;
 }
-
+    
 header .Logo{
     font-size: 2rem;
     font-family: 'Francois One', sans-serif;;
     padding-left: 18px;
     color: white;
 }
-
+    
 .buttons a{
     padding: 4px 10px;
     margin: 0 10px;
@@ -31,25 +43,24 @@ header .Logo{
     color: white;
     background: none;
     border: none;
-    
 }
-
+    
 .container{
     padding-right: 25px;
 }
-
+    
 .buttons a:hover{
     transition: .5s;
     color: black;
 }
-
+    
 .container input{
     width: 500px;
     padding: 10px;
     border-radius: 7px 0 0 7px;
     border: 0;
 }
-
+    
 .container button{
     color: white;
     background-color: black;
@@ -58,19 +69,18 @@ header .Logo{
     border-radius: 0 7px 7px 0;
     padding: 10px;
 }
-
+    
 header .toggle{
     background: none;
     color: white;
     border: none;
     font-size: 1.5rem;
     padding: 0 20px;
-
     display: none;
 }
-
-
-
+    
+    
+    
 nav ul{
     display: flex;
     justify-content: center;
@@ -83,7 +93,7 @@ nav ul li{
     padding: 4px 0;
     margin: 0 5px 10px 5px;
 }
-
+    
 nav a:hover{
     background-color: black;
     transition: .5s;
@@ -95,6 +105,98 @@ nav a{
     padding: 4px 10px;
     border-radius: 6px;
     text-transform: uppercase;
+}
 
+
+.redes ul {
+    display: flex;
+    justify-content: center;
+}
+
+.redes ul li {
+    padding: 20px;
+}
+
+.redes ul li a {
+    font-size: 27px;
+    padding: 5px;
+    color: white;
+    background-color:  #077d30;
+    border-radius: 50%;
+}
+
+.redes ul li a:hover {
+    background-color: black;
+    transition: .5s;
+}
+
+.redes ul li a i {
+    width: 35px;
+    height: 30px;
+    justify-content: center;
+    text-align: center; 
+}
+  
+.copyright {
+    display: flex;
+    justify-content: center;
+    background-color:  #077d30; 
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tituloProductos{
+    color: #077d30;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    margin: 20px;
+}
+    
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    height: 330px;
+    width: 200px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    width: 100%; 
+   
+}
+
+.imagen-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente la imagen */
+    align-items: center; /* Centra verticalmente la imagen */
+    height: 200px; /* Establece la altura fija deseada para todas las imágenes */
+}
+
+
+.card p {
+    font-size: 14px;
+    color: #555;
+    margin-top: auto; 
+    text-align: center; 
 }
 
